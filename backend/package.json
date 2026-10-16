@@ -1,0 +1,19 @@
+{
+  "name": "rubiks-cube-solver-backend",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Node.js API for the Rubik's Cube solver. The solving is done by Java.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/api.test.js test/upload.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.3.0",
+    "jpeg-js": "^0.4.4",
+    "multer": "^2.4.0",
+    "pngjs": "^7.0.0"
+  }
+}

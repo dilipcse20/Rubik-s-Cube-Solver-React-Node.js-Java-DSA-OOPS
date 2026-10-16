@@ -1,0 +1,64 @@
+/* Global styles: colours, reset and base typography. */
+
+:root {
+  --bg: #0f1218;
+  --surface: #181d27;
+  --surface-raised: #212837;
+  --border: #2c3446;
+  --text: #e7eaf0;
+  --text-muted: #9aa4b8;
+  --accent: #5b8def;
+  --accent-hover: #7aa3f5;
+  --success: #3fb97a;
+  --danger: #e5645a;
+
+  /* Cube sticker colours */
+  --cube-U: #f4f4f4;
+  --cube-D: #f2d03b;
+  --cube-F: #2fa84f;
+  --cube-B: #2d6fd6;
+  --cube-L: #f08a24;
+  --cube-R: #d93c3c;
+
+  --radius: 12px;
+  --shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 0.5rem;
+  line-height: 1.25;
+}
+
+p {
+  margin: 0 0 0.75rem;
+}
+
+code {
+  background: var(--surface-raised);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
